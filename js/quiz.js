@@ -9,7 +9,7 @@ let quiz = {
         that  = this;
         $.ajax({
             url:url,
-            type:"POST",
+            type:"GET",
             success:function(response){
                     questions = JSON.parse(response).survey;                  
                     quesCount = questions.length;
