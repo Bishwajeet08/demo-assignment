@@ -1,0 +1,103 @@
+{
+    "survey": [
+        {
+            "Name":"your most important expectation from a life insurance company is...",
+            "ID":1,
+            "Ans":10,
+            "questions":[
+                    {"Name":"Competitive Pricing", "Desc":"", "qid":1},
+                    {"Name":"Easy Online Access", "Desc":"", "qid":2},
+                    {"Name":"Hassle free claims process", "Desc":"", "qid":3},
+                    {"Name":"Easy Documentation", "Desc":"", "qid":4},
+                    {"Name":"Sales representative should be highly expertise", "Desc":"", "qid":5}
+            ],
+            "Ans":1
+       },
+       {
+            "ID":2,
+            "Name":"Besides protection, the purpose of Life insurance in your investment portfolio is...",
+            "Ans":10,
+            "questions":[
+                    {"Name":"Helps in saving tax", "Desc":"", "qid":1},
+                    {"Name":"High Policy", "Desc":"Term Long Term coverage of policy", "qid":2},
+                    {"Name":"Adequate savings", "Desc":"for life goals / retirement needs", "qid":3}
+            ],
+            "Ans":1
+       },
+       {
+            "ID":3,
+            "Name":"your most preferred financial product is...",
+            "Ans":10,
+            "questions":[
+                    {"Name":"Life insurance - ULIP", "Desc":"Where money is invested in stock market", "qid":1},
+                    {"Name":"Health Insurance", "Desc":"", "qid":2},
+                    {"Name":"Recurring Deposits", "Desc":"", "qid":3},
+                    {"Name":"Life insurance - Traditional", "Desc":"Savings, endowment, money back", "qid":4},
+                    {"Name":"Bank Fixed Deposits", "Desc":"", "qid":5},
+                    {"Name":"Family Banking Accounts", "Desc":"", "qid":6}
+            ],
+            "Ans":1
+       },
+       {
+            "ID":4,
+            "Name":"before finalizing Life Insurance policy purchase, You...",
+            "Ans":10,
+            "questions":[
+                    {"Name":"Consulted a financial advisor", "Desc":"", "qid":1},
+                    {"Name":"Spoke to an agent/broker", "Desc":"", "qid":2},
+                    {"Name":"Consulted friends/family", "Desc":"", "qid":3},
+                    {"Name":"Explored Aggregator sites", "Desc":"like Policy Bazaar, Bank Bazaar", "qid":4},
+                    {"Name":"Researched on Social Media", "Desc":"Facebook / Twitter", "qid":5}
+            ],
+            "Ans":1
+       },
+       {
+            "ID":5,
+            "Name":"describe your outlook towards Life...",
+            "Ans":10,
+            "questions":[
+                    {"Name":"I have planned my investments with future goals in mind", "Desc":"", "qid":1},
+                    {"Name":"I live in present and don’t think too much about future", "Desc":"", "qid":2},
+                    {"Name":"I need to be ahead of competition in life", "Desc":"", "qid":3},
+                    {"Name":"I am content with my life", "Desc":"", "qid":4}
+            ],
+            "Ans":1
+       },
+       {
+            "ID":6,
+            "Name":"your priorities in life...",
+            "Ans":10,
+            "questions":[
+                    {"Name":"Establishing myself at work / in business", "Desc":"", "qid":1},
+                    {"Name":"Taking care of my key future needs like child's education/marriage", "Desc":"", "qid":2},
+                    {"Name":"Improving my standard of living", "Desc":"", "qid":3},
+                    {"Name":"Financial security for my parents other family members", "Desc":"", "qid":4},
+                    {"Name":"Building adequate funds to manage life after retirement", "Desc":"", "qid":5}
+            ],
+            "Ans":1
+       },
+       {
+            "ID":7,
+            "Name":"your outlook towards Money is...",
+            "Ans":10,
+            "questions":[
+                    {"Name":"Money is a means to enjoy life", "Desc":"", "qid":1},
+                    {"Name":"Credit card leads me to overspend", "Desc":"", "qid":2},
+                    {"Name":"Borrowing money makes me feel uncomfortable", "Desc":"", "qid":3}
+            ],
+            "Ans":1
+       },
+       {
+            "ID":8,
+            "Name":"You spend maximum time on...",
+            "Ans":10,
+            "questions":[
+                    {"Name":"Television", "Desc":"", "qid":1},
+                    {"Name":"Internet", "Desc":"", "qid":2},
+                    {"Name":"Newspaper/ Magazines", "Desc":"", "qid":3},
+                    {"Name":"Online entertainment like Netflix, Hotstar, Amazon Prime, etc", "Desc":"", "qid":4}
+            ],
+            "Ans":1
+       }
+    ]
+}

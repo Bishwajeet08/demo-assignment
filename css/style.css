@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400,600&display=swap');
+img{max-width:100%;}
+html,body,div,section,article,aside,header,hgroup,footer,nav,h1,h2,h3,h4,h5,h6,p,blockquote,address,time,span,em,strong,img,ol,ul,li,figure,canvas,video,input,select{border:0 none;margin:0;padding:0}body{color:#666666;font-size:16px;font-family:"HelveticaNeue",Arial}input,textarea,select{outline:none}a{outline:0 none;text-decoration:none}a:hover,a:focus{text-decoration:none;outline:none}input{outline:none} article,aside,canvas,details,figcaption,figure,footer,header,hgroup,nav,menu,nav,section,summary{display:block}ul{list-style:none;margin:0;padding:0} #preloader{background:#fff url(../images/preloader-white.gif) no-repeat center; width:100%; height:100%; position:fixed; left:0px; top:0px; z-index:1031;}
+body{overflow-x:hidden;overflow-y:auto;  font-family: 'Nunito';background: #fff; color:#444444;position: relative;height: 100vh;}
+section{padding:1.75rem 0px;}
+.stage{ background: url(../images/bg.png) no-repeat center bottom;background-size: cover;position: relative;height: 90vh;padding-top: 70px;}
+.guy{position: absolute;bottom:20%;transform: translateX(-50%);-webkit-transform: translateX(-50%);width: 120px;}
+.flag_man{position: absolute;bottom: -50px;right: -10%;width: 160px;}
+.quiz_box{position: relative;z-index: 1;}
+
+.quiz_box li{margin:0.5rem 0.5rem;display: inline-block; }
+.quiz_box li a{display: block;background: #0D76B6;padding: 0.9rem 1rem;border-radius: 50px;color: #fff;padding-right: 65px;position: relative;box-shadow: 0px 0px 5px rgba(0,0,0,0.35);}
+.quiz_box li a:after{width: 55px;height: 55px;border-radius: 50%;content: "";background: #fff;position: absolute;right: 0;top: 50%;transform: translateY(-50%);}
+.quiz_box li.selected a:after{background: #fff url(../images/check.png) no-repeat center;background-size: 60%;}
+.quiz_box li.selected a{background: #51AD69;}
+.buttons > button{position: absolute;top: 50%;transform: translateY(-50%);z-index: 2;}
+.buttons > button{width: 60px;height: 60px;background:#fff url(../images/arrow.png) no-repeat center;background-size: 50%;border-radius: 50px;border: none;box-shadow: 0px 0px 5px rgba(0,0,0,0.25);cursor: pointer;}
+.buttons > .next{right: 1%;}
+.finish_line{position: absolute;width: 12px;height: 110%;background:#CD214E ;right: 0%;bottom:5%; }
+#loader{position: fixed;width: 100%;height: 100%;left: 0;top: 0;z-index: 99;background:#fff url(../images/preloader.gif) no-repeat center;}
+.message{position: fixed;width: 290px;background: #ed4337;color: #fff;padding: 0.5rem;text-align: center;left: 50%;transform: translate(-50%, -50%);box-shadow: 0px 0px 5px rgba(0,0,0,0.25);border-radius: 5px;bottom: -20%;font-size: 1.35rem;-webkit-transition: all 0.25s;transition: all 0.25s;max-width: 70%;}
+.message.show{bottom:10%; }
+.buttons > .prev{left: 1%;transform: rotate(-180deg);}
+.quiz_result{padding: 1.5rem 1.5rem;background: #fefefe;border-radius: 5px;box-shadow: 0px 0px 10px rgba(0,0,0,0.5);}
+.quiz_result h2{margin-bottom: 1.25rem;font-weight: bold;}
+.quiz_result h4{margin-bottom: 1rem;font-weight: bold;}
+.track{position: absolute;bottom: 0%;width: 80%;left: 10%;height: 20%;}
+header{position: fixed;top: 0;left: 0;width: 100%;height: 50px;background: #fff;box-shadow: 0px 0px 10px rgba(0,0,0,0.5);z-index: 5;}
+.quiz_box h3{
+font: normal normal bold 26px Nunito;
+letter-spacing: 0px;
+color: #000000;
+text-transform: capitalize;
+margin-bottom: 1.25rem;
+}
+
+@media(max-width: 768px){
+	.quiz_result h2, .quiz_result h4{text-align: center;}
+	.buttons > .prev{left: -2%;}
+	.buttons > .next{right: -2%;}
+	.guy{width: 80px;}
+	.quiz_box h3{padding:0.5rem 0.75rem;background:rgba(255,255,255,0.75);}
+	.flag_man{width: 115px;}
+	.quiz_box  li a::after{width: 45px;height: 45px;}
+	.buttons > button{width: 45px;height: 45px;}
+	.quiz_box li a{font-size: 1rem;padding: 0.75rem 45px 0.75rem 1rem;}
+	.quiz_box .quiz_option li{display: block;width: 85%;margin: 0 auto 1rem auto;}
+	.quiz_box h3{font-size: 1rem;text-align: center;margin-bottom: 1rem;}
+	.stage{padding-top: 60px;}
+	.message{font-size: 1rem;}
+}
+@media(max-width: 370px){
+.quiz_box h3{margin-bottom: 0.75rem;}
+.quiz_box .quiz_option li{margin-bottom: 0.75rem;}
+.quiz_box li a{font-size: 0.8rem;padding: 0.65rem 45px 0.65rem 1rem;}
+}
